@@ -92,20 +92,6 @@
           "pid": "",
           "parameters": {}
         }
-      },
-      "lonbonfloat": {
-        "__plugin_info__": {
-          "name": "LBFloatUniBridging",
-          "description": "主机悬浮应用桥接AAR",
-          "platforms": "Android",
-          "url": "",
-          "android_package_name": "",
-          "ios_bundle_id": "",
-          "isCloud": false,
-          "bought": -1,
-          "pid": "",
-          "parameters": {}
-        }
       }
     },
     "statusbar": {
