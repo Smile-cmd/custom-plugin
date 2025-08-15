@@ -1,0 +1,22 @@
+{
+    "name": "GKUniModule",
+    "id": "gaokemodule",
+    "version": "1.0.0",
+    "description": "高科自定义原生AAR",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+				{
+				    "type": "module",
+				    "name": "GKUniModule",
+				    "class": "com.gksc.plugin.base.BaseModule"
+				}
+            ],
+			"dependencies":[
+				"com.github.Smile-cmd:GaokeUniPlugin:1.0.0"
+			],
+            "integrateType": "aar"
+        }
+    }
+}

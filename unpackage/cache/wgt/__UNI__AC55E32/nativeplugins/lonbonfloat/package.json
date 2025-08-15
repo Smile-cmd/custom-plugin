@@ -1,0 +1,23 @@
+{
+    "name": "LBFloatUniBridging",
+    "id": "lonbonfloat",
+    "version": "1.0.0",
+    "description": "主机悬浮应用桥接AAR",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+			"hooksClass": "com.lonbon.floatunibridging.LonbonBridgeAppProxy",
+            "plugins": [
+				{
+				    "type": "module",
+				    "name": "FloatUniModule",
+				    "class": "com.lonbon.floatunibridging.FloatUniModule"
+				}
+            ],
+			"dependencies":[
+				"com.github.Lon-Bon:LonbonFloatUniBridge:202404091803"
+			],
+            "integrateType": "aar"
+        }
+    }
+}
